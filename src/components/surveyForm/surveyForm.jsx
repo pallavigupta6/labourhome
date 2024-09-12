@@ -2,6 +2,7 @@ import Dropdown from '../dropdown';
 import Input from '../input';
 import MultiSelect from '../multiselect/multiselect';
 import { genderOptions, indianStates, wishlist } from '../../constants/common';
+import { CiUser } from 'react-icons/ci';
 
 const SurveyForm = () => {
   return (
@@ -13,6 +14,9 @@ const SurveyForm = () => {
               Form
             </span>
           </a>
+          <div className='flex items-center'>
+            <CiUser className='h-6 w-6 text-black' />
+          </div>
         </div>
       </nav>
       <form className='bg-gray-100 p-8 rounded'>
